@@ -10,23 +10,23 @@ Processing happens locally and the package has no runtime dependencies.
 ## Run without installing
 
 ```sh
-npx vttpress meeting.vtt meeting.txt
+npx @outsourced-br/vttpress meeting.vtt meeting.txt
 ```
 
 The output argument is optional. Without it, `vttpress` writes a `.txt` file
 beside the input:
 
 ```sh
-npx vttpress meeting.vtt
+npx @outsourced-br/vttpress meeting.vtt
 ```
 
 The output extension selects `txt`, `md`, or `json`. You can also choose the
 format explicitly:
 
 ```sh
-npx vttpress meeting.vtt meeting.md --timestamps start
-npx vttpress meeting.vtt meeting.json --pretty-json
-npx vttpress captions transcripts --recursive --format txt
+npx @outsourced-br/vttpress meeting.vtt meeting.md --timestamps start
+npx @outsourced-br/vttpress meeting.vtt meeting.json --pretty-json
+npx @outsourced-br/vttpress captions transcripts --recursive --format txt
 ```
 
 ## Options
@@ -60,7 +60,7 @@ version in `package.json`, runs the test suite, and publishes to npm.
 
 Use npm trusted publishing after the package exists:
 
-1. Open the `vttpress` package settings on npm.
+1. Open the `@outsourced-br/vttpress` package settings on npm.
 2. Add a GitHub Actions trusted publisher.
 3. Set the GitHub owner to `outsourced-br`, repository to `vttpress`, workflow
    filename to `publish.yml`, and allow `npm publish`.
