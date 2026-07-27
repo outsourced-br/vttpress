@@ -1,5 +1,5 @@
 {
-  "name": "vttpress",
+  "name": "@outsourced-br/vttpress",
   "version": "0.1.0",
   "description": "Compress WebVTT captions into AI-ready text, Markdown, or JSON.",
   "license": "MIT",
