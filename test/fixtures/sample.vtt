@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: en
+
+NOTE generated meeting metadata
+This block should disappear.
+
+1
+00:00:01.000 --> 00:00:03.000 align:start position:0%
+<v Alice>Welcome &amp; thanks everyone.</v>
+
+2
+00:00:03.000 --> 00:00:05.000
+<v Alice>Welcome &amp; thanks everyone. Today we begin.</v>
+
+3
+00:00:05.000 --> 00:00:07.000
+<v Alice>Today we begin.
+Today we begin. With the roadmap.</v>
+
+4
+00:00:07.000 --> 00:00:09.000
+Bob: Great. I have one question.
+
+5
+00:00:09.000 --> 00:00:11.000
+Bob: I have one question. What ships first?
+
+STYLE
+::cue { color: lime; }
+
+6
+00:00:11.000 --> 00:00:13.000
+<v Alice><c.green>The compact transcript ships first.</c></v>

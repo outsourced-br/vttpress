@@ -1,0 +1,43 @@
+{
+  "name": "vttpress",
+  "version": "0.1.0",
+  "description": "Compress WebVTT captions into AI-ready text, Markdown, or JSON.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outsourced-br/vttpress.git"
+  },
+  "homepage": "https://github.com/outsourced-br/vttpress#readme",
+  "bugs": {
+    "url": "https://github.com/outsourced-br/vttpress/issues"
+  },
+  "bin": {
+    "vttpress": "bin/vttpress.js"
+  },
+  "main": "lib/vttpress.js",
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepack": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "vtt",
+    "webvtt",
+    "transcript",
+    "captions",
+    "claude",
+    "chatgpt",
+    "copilot"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
